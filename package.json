@@ -1,0 +1,14 @@
+{
+  "name": "weather-app2",
+    "homepage": " http://github.com.solotahoe/weather_application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mine.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+      "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC"
+}
